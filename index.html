@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Advanced Video Effects Generator</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #0f0f1a;
+      color: #e2e8f0;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      border-bottom: 1px solid #2d2d4e;
+      padding: 28px 24px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    header p {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    /* Language switcher */
+    .lang-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      padding: 14px 24px;
+      background: #13131f;
+      border-bottom: 1px solid #1e1e3a;
+    }
+    .lang-btn {
+      background: #1e1e3a;
+      border: 1px solid #2d2d4e;
+      color: #94a3b8;
+      border-radius: 6px;
+      padding: 4px 11px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-btn:hover, .lang-btn.active {
+      background: #6366f1;
+      border-color: #6366f1;
+      color: #fff;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+    }
+
+    .policy { display: none; }
+    .policy.active { display: block; }
+
+    .policy[dir="rtl"] { text-align: right; }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 32px;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #a5b4fc;
+      margin: 28px 0 10px;
+    }
+    p { font-size: 14px; color: #cbd5e1; margin-bottom: 10px; }
+
+    .highlight {
+      background: #1a1a2e;
+      border-left: 3px solid #6366f1;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: #e2e8f0;
+    }
+    .policy[dir="rtl"] .highlight {
+      border-left: none;
+      border-right: 3px solid #6366f1;
+      border-radius: 8px 0 0 8px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #14532d;
+      color: #86efac;
+      border: 1px solid #16a34a;
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin: 3px 4px 3px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #475569;
+      border-top: 1px solid #1e1e3a;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎬 Advanced Video Effects Generator</h1>
+  <p>Privacy Policy / Politique de confidentialité</p>
+</header>
+
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="switchLang('fr', this)">🇫🇷 FR</button>
+  <button class="lang-btn" onclick="switchLang('en', this)">🇬🇧 EN</button>
+  <button class="lang-btn" onclick="switchLang('es', this)">🇪🇸 ES</button>
+  <button class="lang-btn" onclick="switchLang('pt', this)">🇵🇹 PT</button>
+  <button class="lang-btn" onclick="switchLang('de', this)">🇩🇪 DE</button>
+  <button class="lang-btn" onclick="switchLang('it', this)">🇮🇹 IT</button>
+  <button class="lang-btn" onclick="switchLang('no', this)">🇳🇴 NO</button>
+  <button class="lang-btn" onclick="switchLang('ru', this)">🇷🇺 RU</button>
+  <button class="lang-btn" onclick="switchLang('uk', this)">🇺🇦 UK</button>
+  <button class="lang-btn" onclick="switchLang('id', this)">🇮🇩 ID</button>
+  <button class="lang-btn" onclick="switchLang('hi', this)">🇮🇳 HI</button>
+  <button class="lang-btn" onclick="switchLang('zh', this)">🇨🇳 ZH</button>
+  <button class="lang-btn" onclick="switchLang('ar', this)">🇸🇦 AR</button>
+</div>
+
+<main>
+
+  <!-- ═══════════════════════════════ FRANÇAIS ═══════════════════════════════ -->
+  <div class="policy active" id="policy-fr">
+    <h2>Politique de confidentialité</h2>
+    <p class="subtitle">Dernière mise à jour : mars 2025</p>
+
+    <div class="highlight">
+      ✅ Cette extension ne collecte, ne transmet et ne stocke <strong>aucune donnée personnelle</strong> sur des serveurs externes.
+    </div>
+
+    <h3>1. Données collectées</h3>
+    <p>Cette extension ne collecte aucune donnée personnelle. Elle ne transmet aucune information à des serveurs tiers, ne suit pas votre navigation et n'utilise pas de cookies.</p>
+
+    <h3>2. Traitement local uniquement</h3>
+    <p>Toutes les opérations — chargement des images, génération de vidéos, effets et transitions — sont effectuées <strong>entièrement dans votre navigateur</strong>. Vos fichiers ne quittent jamais votre appareil.</p>
+    <p>Les préférences de l'extension (compteur de vidéos générées, choix de ne plus afficher certains messages) sont stockées localement via <code>localStorage</code>, uniquement sur votre appareil.</p>
+    <span class="tag">✓ Aucun serveur</span>
+    <span class="tag">✓ Aucun cookie</span>
+    <span class="tag">✓ Aucun tracking</span>
+    <span class="tag">✓ 100% local</span>
+
+    <h3>3. Formulaire de contact (optionnel)</h3>
+    <p>Si vous utilisez le formulaire de contact intégré, votre adresse e-mail et votre message sont transmis via <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> à des fins de support uniquement. Aucune autre donnée n'est partagée. Cet envoi est entièrement volontaire.</p>
+
+    <h3>4. Permissions du navigateur</h3>
+    <p><strong>downloads</strong> : utilisée uniquement pour déclencher le téléchargement de la vidéo générée sur votre appareil.</p>
+    <p><strong>tabs</strong> : utilisée uniquement pour ouvrir l'interface de l'extension dans un nouvel onglet.</p>
+
+    <h3>5. Contact</h3>
+    <p>Pour toute question relative à cette politique, utilisez le formulaire de contact intégré à l'extension.</p>
+  </div>
+
+  <!-- ═══════════════════════════════ ENGLISH ════════════════════════════════ -->
+  <div class="policy" id="policy-en">
+    <h2>Privacy Policy</h2>
+    <p class="subtitle">Last updated: March 2025</p>
+
+    <div class="highlight">
+      ✅ This extension does <strong>not collect, transmit, or store any personal data</strong> on external servers.
+    </div>
+
+    <h3>1. Data collected</h3>
+    <p>This extension collects no personal data. It does not transmit any information to third-party servers, does not track your browsing, and does not use cookies.</p>
+
+    <h3>2. Local processing only</h3>
+    <p>All operations — image loading, video generation, effects and transitions — are performed <strong>entirely within your browser</strong>. Your files never leave your device.</p>
+    <p>Extension preferences (video generation counter, display choices) are stored locally via <code>localStorage</code>, only on your device.</p>
+    <span class="tag">✓ No servers</span>
+    <span class="tag">✓ No cookies</span>
+    <span class="tag">✓ No tracking</span>
+    <span class="tag">✓ 100% local</span>
+
+    <h3>3. Contact form (optional)</h3>
+    <p>If you use the built-in contact form, your email address and message are transmitted via <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> for support purposes only. No other data is shared. This submission is entirely voluntary.</p>
+
+    <h3>4. Browser permissions</h3>
+    <p><strong>downloads</strong>: used solely to trigger the download of the generated video to your device.</p>
+    <p><strong>tabs</strong>: used solely to open the extension interface in a new tab.</p>
+
+    <h3>5. Contact</h3>
+    <p>For any questions regarding this policy, please use the contact form built into the extension.</p>
+  </div>
+
+  <!-- ═══════════════════════════════ ESPAÑOL ════════════════════════════════ -->
+  <div class="policy" id="policy-es">
+    <h2>Política de privacidad</h2>
+    <p class="subtitle">Última actualización: marzo de 2025</p>
+
+    <div class="highlight">
+      ✅ Esta extensión <strong>no recopila, transmite ni almacena ningún dato personal</strong> en servidores externos.
+    </div>
+
+    <h3>1. Datos recopilados</h3>
+    <p>Esta extensión no recopila ningún dato personal. No transmite ninguna información a servidores de terceros, no realiza seguimiento de su navegación y no utiliza cookies.</p>
+
+    <h3>2. Procesamiento solo local</h3>
+    <p>Todas las operaciones — carga de imágenes, generación de vídeos, efectos y transiciones — se realizan <strong>completamente en su navegador</strong>. Sus archivos nunca abandonan su dispositivo.</p>
+    <p>Las preferencias de la extensión se almacenan localmente mediante <code>localStorage</code>, solo en su dispositivo.</p>
+    <span class="tag">✓ Sin servidores</span>
+    <span class="tag">✓ Sin cookies</span>
+    <span class="tag">✓ Sin rastreo</span>
+    <span class="tag">✓ 100% local</span>
+
+    <h3>3. Formulario de contacto (opcional)</h3>
+    <p>Si utiliza el formulario de contacto integrado, su dirección de correo electrónico y mensaje se transmiten a través de <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> únicamente para soporte. No se comparten otros datos. Este envío es completamente voluntario.</p>
+
+    <h3>4. Permisos del navegador</h3>
+    <p><strong>downloads</strong>: usado únicamente para iniciar la descarga del vídeo generado en su dispositivo.</p>
+    <p><strong>tabs</strong>: usado únicamente para abrir la interfaz de la extensión en una nueva pestaña.</p>
+
+    <h3>5. Contacto</h3>
+    <p>Para cualquier pregunta sobre esta política, utilice el formulario de contacto integrado en la extensión.</p>
+  </div>
+
+  <!-- ═══════════════════════════════ PORTUGUÊS ══════════════════════════════ -->
+  <div class="policy" id="policy-pt">
+    <h2>Política de Privacidade</h2>
+    <p class="subtitle">Última atualização: março de 2025</p>
+
+    <div class="highlight">
+      ✅ Esta extensão <strong>não recolhe, transmite nem armazena quaisquer dados pessoais</strong> em servidores externos.
+    </div>
+
+    <h3>1. Dados recolhidos</h3>
+    <p>Esta extensão não recolhe dados pessoais. Não transmite qualquer informação a servidores de terceiros, não rastreia a sua navegação e não utiliza cookies.</p>
+
+    <h3>2. Processamento apenas local</h3>
+    <p>Todas as operações — carregamento de imagens, geração de vídeos, efeitos e transições — são realizadas <strong>inteiramente no seu navegador</strong>. Os seus ficheiros nunca saem do seu dispositivo.</p>
+    <p>As preferências da extensão são armazenadas localmente via <code>localStorage</code>, apenas no seu dispositivo.</p>
+    <span class="tag">✓ Sem servidores</span>
+    <span class="tag">✓ Sem cookies</span>
+    <span class="tag">✓ Sem rastreio</span>
+    <span class="tag">✓ 100% local</span>
+
+    <h3>3. Formulário de contacto (opcional)</h3>
+    <p>Se utilizar o formulário de contacto integrado, o seu endereço de e-mail e mensagem são transmitidos via <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> apenas para suporte. Nenhum outro dado é partilhado. Este envio é totalmente voluntário.</p>
+
+    <h3>4. Permissões do navegador</h3>
+    <p><strong>downloads</strong>: utilizado apenas para iniciar o download do vídeo gerado para o seu dispositivo.</p>
+    <p><strong>tabs</strong>: utilizado apenas para abrir a interface da extensão num novo separador.</p>
+
+    <h3>5. Contacto</h3>
+    <p>Para qualquer questão sobre esta política, utilize o formulário de contacto integrado na extensão.</p>
+  </div>
+
+  <!-- ════════════════════════════════ DEUTSCH ═══════════════════════════════ -->
+  <div class="policy" id="policy-de">
+    <h2>Datenschutzerklärung</h2>
+    <p class="subtitle">Zuletzt aktualisiert: März 2025</p>
+
+    <div class="highlight">
+      ✅ Diese Erweiterung <strong>erfasst, überträgt oder speichert keinerlei personenbezogene Daten</strong> auf externen Servern.
+    </div>
+
+    <h3>1. Erfasste Daten</h3>
+    <p>Diese Erweiterung erfasst keine personenbezogenen Daten. Sie überträgt keine Informationen an Drittserver, verfolgt Ihr Surfverhalten nicht und verwendet keine Cookies.</p>
+
+    <h3>2. Ausschließlich lokale Verarbeitung</h3>
+    <p>Alle Vorgänge — Laden von Bildern, Videogenerierung, Effekte und Übergänge — werden <strong>vollständig in Ihrem Browser</strong> ausgeführt. Ihre Dateien verlassen niemals Ihr Gerät.</p>
+    <p>Erweiterungseinstellungen werden lokal über <code>localStorage</code> gespeichert, ausschließlich auf Ihrem Gerät.</p>
+    <span class="tag">✓ Keine Server</span>
+    <span class="tag">✓ Keine Cookies</span>
+    <span class="tag">✓ Kein Tracking</span>
+    <span class="tag">✓ 100% lokal</span>
+
+    <h3>3. Kontaktformular (optional)</h3>
+    <p>Wenn Sie das integrierte Kontaktformular verwenden, werden Ihre E-Mail-Adresse und Nachricht über <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> ausschließlich für den Support übermittelt. Keine weiteren Daten werden weitergegeben. Diese Übermittlung ist vollständig freiwillig.</p>
+
+    <h3>4. Browserberechtigung</h3>
+    <p><strong>downloads</strong>: wird ausschließlich verwendet, um den Download des generierten Videos auf Ihr Gerät auszulösen.</p>
+    <p><strong>tabs</strong>: wird ausschließlich verwendet, um die Erweiterungsoberfläche in einem neuen Tab zu öffnen.</p>
+
+    <h3>5. Kontakt</h3>
+    <p>Bei Fragen zu dieser Richtlinie nutzen Sie bitte das in der Erweiterung integrierte Kontaktformular.</p>
+  </div>
+
+  <!-- ════════════════════════════════ ITALIANO ══════════════════════════════ -->
+  <div class="policy" id="policy-it">
+    <h2>Informativa sulla Privacy</h2>
+    <p class="subtitle">Ultimo aggiornamento: marzo 2025</p>
+
+    <div class="highlight">
+      ✅ Questa estensione <strong>non raccoglie, trasmette né archivia alcun dato personale</strong> su server esterni.
+    </div>
+
+    <h3>1. Dati raccolti</h3>
+    <p>Questa estensione non raccoglie dati personali. Non trasmette alcuna informazione a server di terze parti, non traccia la navigazione e non utilizza cookie.</p>
+
+    <h3>2. Elaborazione solo locale</h3>
+    <p>Tutte le operazioni — caricamento immagini, generazione video, effetti e transizioni — vengono eseguite <strong>interamente nel browser</strong>. I file non lasciano mai il dispositivo.</p>
+    <p>Le preferenze dell'estensione vengono memorizzate localmente tramite <code>localStorage</code>, solo sul dispositivo dell'utente.</p>
+    <span class="tag">✓ Nessun server</span>
+    <span class="tag">✓ Nessun cookie</span>
+    <span class="tag">✓ Nessun tracciamento</span>
+    <span class="tag">✓ 100% locale</span>
+
+    <h3>3. Modulo di contatto (opzionale)</h3>
+    <p>Se si utilizza il modulo di contatto integrato, l'indirizzo e-mail e il messaggio vengono trasmessi tramite <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> esclusivamente per il supporto. Nessun altro dato viene condiviso. L'invio è completamente volontario.</p>
+
+    <h3>4. Autorizzazioni del browser</h3>
+    <p><strong>downloads</strong>: usata esclusivamente per avviare il download del video generato sul dispositivo.</p>
+    <p><strong>tabs</strong>: usata esclusivamente per aprire l'interfaccia dell'estensione in una nuova scheda.</p>
+
+    <h3>5. Contatto</h3>
+    <p>Per qualsiasi domanda su questa informativa, utilizzare il modulo di contatto integrato nell'estensione.</p>
+  </div>
+
+  <!-- ════════════════════════════════ NORSK ═════════════════════════════════ -->
+  <div class="policy" id="policy-no">
+    <h2>Personvernerklæring</h2>
+    <p class="subtitle">Sist oppdatert: mars 2025</p>
+
+    <div class="highlight">
+      ✅ Denne utvidelsen <strong>samler ikke inn, overfører eller lagrer noen personopplysninger</strong> på eksterne servere.
+    </div>
+
+    <h3>1. Innsamlede data</h3>
+    <p>Denne utvidelsen samler ikke inn personopplysninger. Den overfører ingen informasjon til tredjepartsservere, sporer ikke surfingen din og bruker ikke informasjonskapsler.</p>
+
+    <h3>2. Kun lokal behandling</h3>
+    <p>Alle operasjoner — lasting av bilder, generering av videoer, effekter og overganger — utføres <strong>helt i nettleseren</strong>. Filene dine forlater aldri enheten din.</p>
+    <p>Utvidelsesinnstillinger lagres lokalt via <code>localStorage</code>, kun på enheten din.</p>
+    <span class="tag">✓ Ingen servere</span>
+    <span class="tag">✓ Ingen cookies</span>
+    <span class="tag">✓ Ingen sporing</span>
+    <span class="tag">✓ 100% lokalt</span>
+
+    <h3>3. Kontaktskjema (valgfritt)</h3>
+    <p>Hvis du bruker det innebygde kontaktskjemaet, overføres e-postadressen og meldingen din via <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> kun for støtteformål. Ingen andre data deles. Innsending er helt frivillig.</p>
+
+    <h3>4. Nettlesertillatelser</h3>
+    <p><strong>downloads</strong>: brukes kun til å starte nedlastingen av den genererte videoen til enheten din.</p>
+    <p><strong>tabs</strong>: brukes kun til å åpne utvidelsesgrensesnittet i en ny fane.</p>
+
+    <h3>5. Kontakt</h3>
+    <p>For spørsmål om denne erklæringen, bruk kontaktskjemaet i utvidelsen.</p>
+  </div>
+
+  <!-- ═══════════════════════════════ РУССКИЙ ════════════════════════════════ -->
+  <div class="policy" id="policy-ru">
+    <h2>Политика конфиденциальности</h2>
+    <p class="subtitle">Последнее обновление: март 2025 г.</p>
+
+    <div class="highlight">
+      ✅ Это расширение <strong>не собирает, не передаёт и не хранит персональные данные</strong> на внешних серверах.
+    </div>
+
+    <h3>1. Собираемые данные</h3>
+    <p>Расширение не собирает персональные данные. Оно не передаёт никакую информацию сторонним серверам, не отслеживает действия пользователя и не использует файлы cookie.</p>
+
+    <h3>2. Только локальная обработка</h3>
+    <p>Все операции — загрузка изображений, создание видео, эффекты и переходы — выполняются <strong>исключительно в вашем браузере</strong>. Ваши файлы никогда не покидают устройство.</p>
+    <p>Настройки расширения сохраняются локально через <code>localStorage</code>, только на вашем устройстве.</p>
+    <span class="tag">✓ Без серверов</span>
+    <span class="tag">✓ Без cookies</span>
+    <span class="tag">✓ Без слежки</span>
+    <span class="tag">✓ 100% локально</span>
+
+    <h3>3. Форма обратной связи (необязательно)</h3>
+    <p>При использовании встроенной формы обратной связи ваш адрес электронной почты и сообщение передаются через <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> исключительно в целях поддержки. Никакие другие данные не передаются. Отправка полностью добровольна.</p>
+
+    <h3>4. Разрешения браузера</h3>
+    <p><strong>downloads</strong>: используется исключительно для запуска загрузки сгенерированного видео на ваше устройство.</p>
+    <p><strong>tabs</strong>: используется исключительно для открытия интерфейса расширения в новой вкладке.</p>
+
+    <h3>5. Контакт</h3>
+    <p>По вопросам, связанным с данной политикой, воспользуйтесь формой обратной связи в расширении.</p>
+  </div>
+
+  <!-- ══════════════════════════════ УКРАЇНСЬКА ══════════════════════════════ -->
+  <div class="policy" id="policy-uk">
+    <h2>Політика конфіденційності</h2>
+    <p class="subtitle">Останнє оновлення: березень 2025 р.</p>
+
+    <div class="highlight">
+      ✅ Це розширення <strong>не збирає, не передає та не зберігає персональні дані</strong> на зовнішніх серверах.
+    </div>
+
+    <h3>1. Дані, що збираються</h3>
+    <p>Розширення не збирає персональних даних. Воно не передає жодної інформації стороннім серверам, не відстежує дії користувача та не використовує файли cookie.</p>
+
+    <h3>2. Лише локальна обробка</h3>
+    <p>Усі операції — завантаження зображень, створення відео, ефекти та переходи — виконуються <strong>виключно у вашому браузері</strong>. Ваші файли ніколи не залишають пристрій.</p>
+    <p>Налаштування розширення зберігаються локально через <code>localStorage</code>, лише на вашому пристрої.</p>
+    <span class="tag">✓ Без серверів</span>
+    <span class="tag">✓ Без cookies</span>
+    <span class="tag">✓ Без стеження</span>
+    <span class="tag">✓ 100% локально</span>
+
+    <h3>3. Форма зворотного зв'язку (необов'язково)</h3>
+    <p>При використанні вбудованої форми зворотного зв'язку ваша електронна адреса та повідомлення передаються через <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> виключно для підтримки. Жодні інші дані не передаються. Надсилання є повністю добровільним.</p>
+
+    <h3>4. Дозволи браузера</h3>
+    <p><strong>downloads</strong>: використовується виключно для запуску завантаження згенерованого відео на ваш пристрій.</p>
+    <p><strong>tabs</strong>: використовується виключно для відкриття інтерфейсу розширення у новій вкладці.</p>
+
+    <h3>5. Контакт</h3>
+    <p>З питань щодо цієї політики скористайтеся формою зворотного зв'язку в розширенні.</p>
+  </div>
+
+  <!-- ══════════════════════════════ INDONESIA ═══════════════════════════════ -->
+  <div class="policy" id="policy-id">
+    <h2>Kebijakan Privasi</h2>
+    <p class="subtitle">Terakhir diperbarui: Maret 2025</p>
+
+    <div class="highlight">
+      ✅ Ekstensi ini <strong>tidak mengumpulkan, mentransmisikan, atau menyimpan data pribadi apa pun</strong> di server eksternal.
+    </div>
+
+    <h3>1. Data yang dikumpulkan</h3>
+    <p>Ekstensi ini tidak mengumpulkan data pribadi. Tidak mentransmisikan informasi apa pun ke server pihak ketiga, tidak melacak penelusuran Anda, dan tidak menggunakan cookie.</p>
+
+    <h3>2. Pemrosesan lokal saja</h3>
+    <p>Semua operasi — pemuatan gambar, pembuatan video, efek dan transisi — dilakukan <strong>sepenuhnya di browser Anda</strong>. File Anda tidak pernah meninggalkan perangkat Anda.</p>
+    <p>Preferensi ekstensi disimpan secara lokal melalui <code>localStorage</code>, hanya di perangkat Anda.</p>
+    <span class="tag">✓ Tanpa server</span>
+    <span class="tag">✓ Tanpa cookie</span>
+    <span class="tag">✓ Tanpa pelacakan</span>
+    <span class="tag">✓ 100% lokal</span>
+
+    <h3>3. Formulir kontak (opsional)</h3>
+    <p>Jika Anda menggunakan formulir kontak bawaan, alamat email dan pesan Anda dikirim melalui <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> hanya untuk keperluan dukungan. Tidak ada data lain yang dibagikan. Pengiriman ini sepenuhnya sukarela.</p>
+
+    <h3>4. Izin browser</h3>
+    <p><strong>downloads</strong>: digunakan hanya untuk memulai pengunduhan video yang dibuat ke perangkat Anda.</p>
+    <p><strong>tabs</strong>: digunakan hanya untuk membuka antarmuka ekstensi di tab baru.</p>
+
+    <h3>5. Kontak</h3>
+    <p>Untuk pertanyaan terkait kebijakan ini, gunakan formulir kontak yang terpasang di ekstensi.</p>
+  </div>
+
+  <!-- ═════════════════════════════════ हिन्दी ══════════════════════════════ -->
+  <div class="policy" id="policy-hi">
+    <h2>गोपनीयता नीति</h2>
+    <p class="subtitle">अंतिम अद्यतन: मार्च 2025</p>
+
+    <div class="highlight">
+      ✅ यह एक्सटेंशन बाहरी सर्वर पर <strong>कोई भी व्यक्तिगत डेटा एकत्र, संचारित या संग्रहीत नहीं करता</strong>।
+    </div>
+
+    <h3>1. एकत्र किया गया डेटा</h3>
+    <p>यह एक्सटेंशन कोई व्यक्तिगत डेटा एकत्र नहीं करता। यह किसी तृतीय-पक्ष सर्वर को कोई जानकारी नहीं भेजता, आपकी ब्राउज़िंग को ट्रैक नहीं करता और कुकीज़ का उपयोग नहीं करता।</p>
+
+    <h3>2. केवल स्थानीय प्रसंस्करण</h3>
+    <p>सभी ऑपरेशन — छवि लोडिंग, वीडियो जनरेशन, प्रभाव और संक्रमण — <strong>पूरी तरह से आपके ब्राउज़र में</strong> किए जाते हैं। आपकी फ़ाइलें कभी भी आपके डिवाइस से बाहर नहीं जातीं।</p>
+    <p>एक्सटेंशन की प्राथमिकताएँ <code>localStorage</code> के माध्यम से केवल आपके डिवाइस पर स्थानीय रूप से संग्रहीत की जाती हैं।</p>
+    <span class="tag">✓ कोई सर्वर नहीं</span>
+    <span class="tag">✓ कोई कुकी नहीं</span>
+    <span class="tag">✓ कोई ट्रैकिंग नहीं</span>
+    <span class="tag">✓ 100% स्थानीय</span>
+
+    <h3>3. संपर्क फ़ॉर्म (वैकल्पिक)</h3>
+    <p>यदि आप अंतर्निहित संपर्क फ़ॉर्म का उपयोग करते हैं, तो आपका ईमेल पता और संदेश केवल सहायता के लिए <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> के माध्यम से प्रेषित किया जाता है। कोई अन्य डेटा साझा नहीं किया जाता। यह सबमिशन पूरी तरह स्वैच्छिक है।</p>
+
+    <h3>4. ब्राउज़र अनुमतियाँ</h3>
+    <p><strong>downloads</strong>: केवल आपके डिवाइस पर जनरेट किए गए वीडियो का डाउनलोड शुरू करने के लिए उपयोग की जाती है।</p>
+    <p><strong>tabs</strong>: केवल नए टैब में एक्सटेंशन इंटरफ़ेस खोलने के लिए उपयोग की जाती है।</p>
+
+    <h3>5. संपर्क</h3>
+    <p>इस नीति के संबंध में किसी भी प्रश्न के लिए, एक्सटेंशन में अंतर्निहित संपर्क फ़ॉर्म का उपयोग करें।</p>
+  </div>
+
+  <!-- ══════════════════════════════ 中文 ════════════════════════════════════ -->
+  <div class="policy" id="policy-zh">
+    <h2>隐私政策</h2>
+    <p class="subtitle">最后更新：2025年3月</p>
+
+    <div class="highlight">
+      ✅ 本扩展程序<strong>不会在外部服务器上收集、传输或存储任何个人数据</strong>。
+    </div>
+
+    <h3>1. 收集的数据</h3>
+    <p>本扩展程序不收集任何个人数据。它不会向第三方服务器传输任何信息，不会追踪您的浏览行为，也不使用 Cookie。</p>
+
+    <h3>2. 仅限本地处理</h3>
+    <p>所有操作——图片加载、视频生成、特效和转场——均<strong>完全在您的浏览器中</strong>执行。您的文件不会离开您的设备。</p>
+    <p>扩展程序的偏好设置通过 <code>localStorage</code> 仅存储在您的设备本地。</p>
+    <span class="tag">✓ 无服务器</span>
+    <span class="tag">✓ 无Cookie</span>
+    <span class="tag">✓ 无追踪</span>
+    <span class="tag">✓ 100% 本地</span>
+
+    <h3>3. 联系表单（可选）</h3>
+    <p>如果您使用内置联系表单，您的电子邮件地址和消息将仅出于支持目的通过 <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> 传输。不会共享其他任何数据。提交完全出于自愿。</p>
+
+    <h3>4. 浏览器权限</h3>
+    <p><strong>downloads</strong>：仅用于触发将生成的视频下载到您的设备。</p>
+    <p><strong>tabs</strong>：仅用于在新标签页中打开扩展程序界面。</p>
+
+    <h3>5. 联系方式</h3>
+    <p>如对本政策有任何疑问，请使用扩展程序内置的联系表单。</p>
+  </div>
+
+  <!-- ════════════════════════════════ العربية ══════════════════════════════ -->
+  <div class="policy" id="policy-ar" dir="rtl">
+    <h2>سياسة الخصوصية</h2>
+    <p class="subtitle">آخر تحديث: مارس 2025</p>
+
+    <div class="highlight">
+      ✅ هذا الامتداد <strong>لا يجمع أو ينقل أو يخزن أي بيانات شخصية</strong> على خوادم خارجية.
+    </div>
+
+    <h3>١. البيانات المجمّعة</h3>
+    <p>لا يجمع هذا الامتداد أي بيانات شخصية. لا يُرسل أي معلومات إلى خوادم خارجية، ولا يتتبع تصفحك، ولا يستخدم ملفات تعريف الارتباط.</p>
+
+    <h3>٢. المعالجة المحلية فقط</h3>
+    <p>جميع العمليات — تحميل الصور، وإنشاء الفيديو، والمؤثرات والانتقالات — تُنفَّذ <strong>بالكامل داخل متصفحك</strong>. لا تغادر ملفاتك جهازك أبداً.</p>
+    <p>يتم تخزين تفضيلات الامتداد محلياً عبر <code>localStorage</code>، على جهازك فقط.</p>
+    <span class="tag">✓ بدون خوادم</span>
+    <span class="tag">✓ بدون كوكيز</span>
+    <span class="tag">✓ بدون تتبع</span>
+    <span class="tag">✓ 100% محلي</span>
+
+    <h3>٣. نموذج التواصل (اختياري)</h3>
+    <p>إذا استخدمت نموذج التواصل المدمج، يتم إرسال عنوان بريدك الإلكتروني ورسالتك عبر <a href="https://web3forms.com" style="color:#a5b4fc">Web3Forms</a> لأغراض الدعم فقط. لا تتم مشاركة أي بيانات أخرى. الإرسال طوعي تماماً.</p>
+
+    <h3>٤. أذونات المتصفح</h3>
+    <p><strong>downloads</strong>: تُستخدم فقط لبدء تنزيل الفيديو المُنشأ على جهازك.</p>
+    <p><strong>tabs</strong>: تُستخدم فقط لفتح واجهة الامتداد في علامة تبويب جديدة.</p>
+
+    <h3>٥. التواصل</h3>
+    <p>لأي استفسار بشأن هذه السياسة، يُرجى استخدام نموذج التواصل المدمج في الامتداد.</p>
+  </div>
+
+</main>
+
+<footer>
+  <p>Advanced Video Effects Generator — © 2025 — <span id="footer-date"></span></p>
+</footer>
+
+<script>
+  function switchLang(lang, btn) {
+    document.querySelectorAll('.policy').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    const el = document.getElementById('policy-' + lang);
+    if (el) el.classList.add('active');
+    btn.classList.add('active');
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
+  }
+
+  // Auto-detect browser language on load
+  (function () {
+    const raw  = navigator.language || 'fr';
+    const lang = raw.split('-')[0].toLowerCase();
+    const map  = { fr:1, en:1, es:1, pt:1, de:1, it:1, no:1, ru:1, uk:1, id:1, hi:1, zh:1, ar:1 };
+    if (map[lang]) {
+      const btn = document.querySelector('.lang-btn[onclick*="' + lang + '"]');
+      if (btn) {
+        document.querySelectorAll('.policy').forEach(p => p.classList.remove('active'));
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById('policy-' + lang)?.classList.add('active');
+        btn.classList.add('active');
+      }
+    }
+    // Footer date
+    document.getElementById('footer-date').textContent =
+      new Date().toLocaleDateString('en-GB', { year:'numeric', month:'long' });
+  })();
+</script>
+
+</body>
+</html>
